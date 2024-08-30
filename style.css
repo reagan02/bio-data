@@ -1,0 +1,73 @@
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main {
+	border: 2px solid black;
+	width: 40%;
+	padding: 0.5em;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+.upper-section {
+	display: flex;
+	align-items: stretch;
+}
+
+.upper-section > div:first-child {
+	width: 60%;
+}
+.upper-section > div:last-child {
+	border: 2px solid black;
+	margin: 0.5em;
+	padding: 20px;
+	flex-grow: 1;
+}
+
+.middle-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+}
+.bottom-section > div:first-child {
+	width: 50%;
+}
+.last-group {
+	display: flex;
+}
+.last-group > div:first-child {
+	width: 52%;
+}
+
+.input-group {
+	display: flex;
+	padding: 0.2em;
+}
+input {
+	flex-grow: 1;
+	border: none;
+	border-bottom: 2px solid black;
+	margin-left: 1em;
+}
+
+.consent {
+	border: 2px solid black;
+	padding: 1em;
+	margin-top: 1em;
+}
+.consent > p {
+	text-align: center;
+}
+.consent > div {
+	display: flex;
+	justify-content: space-around;
+}
